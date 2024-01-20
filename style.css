@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Libre Baskerville', serif;*/
+    
+    font-family: 'Agdasima', sans-serif;
+    font-weight: 900;
+    display: flex;
+}
+.background_image{
+    height: 100vh;
+    width: 35vw;
+}
+.odin_logo{
+    height: 19vh;
+}
+.odin_text{
+    font-family: 'Rubik Lines', system-ui;
+    font-size: 60px;
+}
+.odin{
+    background-color: rgba(0, 0, 0, 0.373);
+    color: aliceblue;
+    position: absolute;
+    top :20vh;
+    height: 20vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credit > a{
+    color: white;
+}
+.credit{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.673);
+    position: absolute;
+    bottom: 0vh;
+    left: 10vw;
+}
+
+/*  Main section*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    background-color: rgba(218, 217, 217, 0.436);
+    height: 30vh;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.box{
+    margin-left: 50px;
+    margin-bottom: 0.8vh;
+}
+.form{
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.filde{
+    display: flex;
+    flex-direction: column;
+}
+div > input{
+    width: 30vh;
+    height: 3.5vh;
+    font-size: 1.1rem;
+}
+.subtitre{
+    width: 65vw;
+    font-size: 1.7rem;
+}
+.footer{
+    background-color: rgba(218, 217, 217, 0.436);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+p{
+    color: red;
+}
+button{
+    background-color: #596D48;
+    width: 14vw;
+    height: 8vh;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 3%;
+}
